@@ -18,5 +18,25 @@
     <ClCompile Include="BommLang.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="compile.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="parse.h">
+      <Filter>Headerdateien</Filter>
+    </ClCompile>
+    <ClCompile Include="lex.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="parse.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="compile.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="lex.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

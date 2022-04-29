@@ -140,6 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BommLang.c" />
+    <ClCompile Include="compile.c" />
+    <ClCompile Include="lex.c" />
+    <ClCompile Include="parse.c" />
+    <ClCompile Include="parse.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="compile.h" />
+    <ClInclude Include="lex.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
