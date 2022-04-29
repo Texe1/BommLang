@@ -149,6 +149,9 @@
     <ClInclude Include="compile.h" />
     <ClInclude Include="lex.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="main.bl" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
