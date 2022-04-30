@@ -144,10 +144,12 @@
     <ClCompile Include="lex.c" />
     <ClCompile Include="parse.c" />
     <ClCompile Include="parse.h" />
+    <ClCompile Include="util.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="compile.h" />
     <ClInclude Include="lex.h" />
+    <ClInclude Include="util.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="main.bl" />

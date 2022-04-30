@@ -1,9 +1,30 @@
 u8 a = 0;
 
-u64 b = 0x0a;
+u64 b = 10;
 
 u16 c = (u16)b;
 
-while(++a){
+@loop_start
+
+jump (loop_end) if (!a);
+
+	a++;
 	b += c * (3 * (14 - 13));
-}
+	c &= b | a;
+
+jump (loop_start) if (a);
+
+call (func) (c) if (b >= 10);
+
+@loop_end
+
+@func
+param(u64 b);
+
+	u8 a = 0;
+
+	b += a++;
+
+	jump (func) if (a);
+
+return;
